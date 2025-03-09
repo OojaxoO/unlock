@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全国24小时专业上门开锁换锁服务 | 公安备案 | 极速响应</title>
+    <style>
+        :root {
+            --theme-blue: #2c83f6;
+            --dark-blue: #1a5fb4;
+            --text-dark: #2c3e50;
+        }
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            color: var(--text-dark);
+        }
+        
+        /* 主题横幅 */
+        .hero-banner {
+            background: linear-gradient(135deg, var(--theme-blue), var(--dark-blue));
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .hero-title {
+            font-size: 2.2rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        .hotline-button {
+            background: white;
+            color: var(--theme-blue);
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 1.5rem 0;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        /* 服务项目 */
+        .service-section {
+            padding: 3rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .service-card {
+            border: 2px solid var(--theme-blue);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(44,131,246,0.2);
+        }
+
+        /* 核心优势 */
+        .advantage-section {
+            background: #f8f9fa;
+            padding: 3rem 1rem;
+        }
+        .advantage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .advantage-card {
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        /* 服务流程 */
+        .process-section {
+            padding: 3rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem;
+            position: relative;
+            padding: 2rem 0;
+        }
+        .process-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: var(--theme-blue);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 1.2rem;
+        }
+
+        /* 法律声明 */
+        .legal-footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* 浮动按钮 */
+        .float-contact {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+        }
+        .float-button {
+            background: var(--theme-blue);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 主题横幅 -->
+    <div class="hero-banner">
+        <h1 class="hero-title">全国24小时专业上门开锁换锁服务</h1>
+        <a href="tel:19125316269" class="hotline-button">立即致电：191-2531-6269</a>
+        <div style="margin-top:1rem;">
+            <p>公安备案 | 极速响应 | 技术精湛 | 价格透明</p>
+        </div>
+    </div>
+
+    <!-- 服务项目 -->
+    <section class="service-section">
+        <h2 style="color:var(--theme-blue);text-align:center;">核心服务项目</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>🔓 防盗门开锁</h3>
+                <p>盼盼/王力/步阳等品牌</p>
+            </div>
+            <div class="service-card">
+                <h3>🚗 汽车门开锁</h3>
+                <p>芯片钥匙匹配服务</p>
+            </div>
+            <div class="service-card">
+                <h3>🔢 密码锁开锁</h3>
+                <p>智能锁应急开启</p>
+            </div>
+            <div class="service-card">
+                <h3>💡 换智能门锁</h3>
+                <p>人脸识别系统安装</p>
+            </div>
+            <div class="service-card">
+                <h3>🏦 保险柜开锁</h3>
+                <p>银行级安全操作</p>
+            </div>
+            <div class="service-card">
+                <h3>🔄 换锁服务</h3>
+                <p>C级锁芯更换</p>
+            </div>
+            <div class="service-card">
+                <h3>🔧 修锁服务</h3>
+                <p>结构修复与维护</p>
+            </div>
+            <div class="service-card">
+                <h3>� 换锁芯服务</h3>
+                <p>超C级防盗锁芯</p>
+            </div>
+            <div class="service-card">
+                <h3>💡 更多服务</h3>
+                <p>敬请期待</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心优势 -->
+    <section class="advantage-section">
+        <h2 style="color:var(--theme-blue);text-align:center;">六大服务优势</h2>
+        <div class="advantage-grid">
+            <div class="advantage-card">
+                <h3>⚡ 15分钟极速响应</h3>
+                <p>主城区快速到达<br>全国326城覆盖</p>
+            </div>
+            <div class="advantage-card">
+                <h3>🔐 公安备案保障</h3>
+                <p>服务全程录像<br>备案信息可查</p>
+            </div>
+            <div class="advantage-card">
+                <h3>💎 专业设备保障</h3>
+                <p>进口无损工具<br>持证技师服务</p>
+            </div>
+            <div class="advantage-card">
+                <h3>🛡️ 无忧售后体系</h3>
+                <p>24小时客服在线<br>第一时间倾听与上门解决</p>
+            </div>
+            <div class="advantage-card">
+                <h3>🤰 特殊群体优先</h3>
+                <p>孕妇老人绿色通道<br>全程陪同服务</p>
+            </div>
+            <div class="advantage-card">
+                <h3>🌙 夜间服务承诺</h3>
+                <p>23:00后不加价<br>统一收费标准</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 服务流程 -->
+    <section class="process-section">
+        <h2 style="color:var(--theme-blue);text-align:center;">标准化服务流程</h2>
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h4>电话咨询</h4>
+                <p>快速确认需求</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h4>身份核验</h4>
+                <p>公安备案验证</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <h4>快速上门</h4>
+                <p>15分钟极速到达</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <h4>专业操作</h4>
+                <p>无损开锁全程录像</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">5</div>
+                <h4>验收支付</h4>
+                <p>电子凭证保障</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">6</div>
+                <h4>质保服务</h4>
+                <p>180天质量保障</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 法律声明 -->
+    <div class="legal-footer">
+        <p>※ 公安备案号：渝公锁备XXXXXX | 工商注册号：XXXXXXXX</p>
+        <p>※ 服务需配合出示有效身份证件并录像存档</p>
+    </div>
+
+    <!-- 浮动按钮 -->
+    <div class="float-contact">
+        <a href="tel:19125316269" class="float-button">
+            📞 紧急呼叫
+        </a>
+    </div>
+</body>
+</html>
